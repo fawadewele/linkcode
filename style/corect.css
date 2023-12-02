@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navh h1{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    text-decoration: none;
+}
+.navh{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border: 2px groove black;
+    
+}
+.navh ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.navh ul li a{
+    padding: 12px;
+    margin: 0 6px;
+    color: red;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.moi{
+    margin-top: 25px;
+    border: 3px solid black ;
+    margin-right: 950px;
+    margin-left:100px ;
+    
+
+}
+.article{
+    border: 3px solid black;
+    margin-left: 600px;
+    margin-top: -300px;
+    margin-bottom:15px;
+    padding: 10px 10px;
+    list-style: none;
+    margin-right: 95px;
+    padding-top: 15px;
+    padding-bottom: 2px;
+}
+#h1sec{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+footer{
+    border: 3px solid black;
+    display: flex;
+    padding: 7px;
+    padding-top:10px;
+    margin-top:100px;
+    justify-content: space-between;
+}
+.h3foo{
+    font-size: 25px;
+}
+ul li{
+   list-style-type: none;
+
+   }
+ h2{
+    text-align: center;
+    color:brown ;
+    font-size:30px;
+}
+.section3{
+    display: flex;
+}
+ .lo{
+   border-radius: 20px;
+   margin: 30px;
+   margin: 50px 50px;
+}
+table{
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-collapse: collapse;
+    box-shadow: 4px 8px 10px lightblue;
+
+}
+tr,td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+tr th{
+    background-color:darkblue;
+    
+}
+th{
+    color:white;
+}
+.sec1{
+    background-color: lightblue;
+    border: 1px solid maroon;
+    margin-left:500px;
+    width:400px;
+    padding: 15px;
+}
+.sec1 .text{
+    text-align: center;
+    color: blue;
+}
+.sec1 img {
+    padding:20px;
+}
+
+
+
+
+.app{
+    margin-left:30%;
+    color: blue;
+    font-size:15px;
+}
+.apropos{
+    border:1px solid white;
+    margin-top:25px;
+    margin-left:250px;
+    margin-right:250px;
+    background-color:whitesmoke;
+    box-shadow:8px 10px 16px white;
+}
+.apropos h1{
+  color:darkblue;
+}
+.apropos p{
+    color: blue;
+}
+.projet{
+    background-color: whitesmoke;
+}
+.projet h1{
+    font-size:30px ;
+    color: blue;
+    margin-bottom:20px;
+    margin-left:15px;
+}
+.projet td{
+    font-size:20px;
+    color:blue;
+}
+.projet button{
+    padding: 20px;
+    border-radius:5px;
+    color: white;
+    background-color:darkblue;
+}
+.Contact{
+    padding-top:70px;
+}
+.Contact h1{
+    margin-left:40%;
+    color:darkblue;
+}
+.Contact p{
+    margin-left:40%;
+    color: blue;
+    font-size:20px;
+}
+.con {
+   margin-left:40%;
+   padding-top:15px;
+   }
+   .con label{
+    color: blue;
+   }
+.con input{
+    width:70%;
+    padding:10px;
+}
+ #but{
+    height:100px;
+}
+.envoyer{
+    
+    background-color: darkblue;
+    color: white;
+    width:70%;
+    height: 70%;
+    flex:33%;
+    
+    padding: 10px;
+  
+}
+
+
+
